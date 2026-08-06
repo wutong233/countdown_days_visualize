@@ -75,7 +75,7 @@ class MainActivity : AppCompatActivity() {
         }
         setContentView(webView)
 
-        with(settings) {
+        with(webView.settings) {
             javaScriptEnabled = true
             domStorageEnabled = true
             databaseEnabled = true
