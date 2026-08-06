@@ -1,0 +1,42 @@
+/* ===== 主题与配色变量 ===== */
+:root{
+  --cell:26px;
+  --gap:4px;
+  --radius:5px;
+  --split-today:1fr;
+  --split-total:0.55fr;
+  --grid-gap:28px;
+  --glass-bg:rgba(255,255,255,0.10);
+  --glass-border:rgba(255,255,255,0.18);
+  --glass-rim:rgba(255,255,255,0.32);
+  --glass-blur:22px;
+  --glass-saturate:1.8;
+  --glass-shadow:0 8px 32px rgba(0,0,0,0.28);
+  --glass-radius:16px;
+  --num1:#38bdf8;
+  --num2:#818cf8;
+  --today1:#fbbf24;
+  --today2:#f97316;
+}
+html[data-theme=dark]{
+  --bg:#070b14;--text:#e6edf7;--muted:#8fa0b8;--line:rgba(255,255,255,0.10);
+  --chip:rgba(255,255,255,0.06);--seg-active:rgba(255,255,255,0.13);
+  --cell-empty:rgba(255,255,255,0.055);--halo:rgba(7,11,20,0.72);
+  --panel-bg:rgba(14,20,35,0.78);color-scheme:dark;
+}
+html[data-theme=oled]{
+  --bg:#000;--halo:rgba(0,0,0,0.84);--panel-bg:rgba(0,0,0,0.82);
+  --cell-empty:rgba(255,255,255,0.05);--glass-bg:rgba(255,255,255,0.08);
+  --glass-shadow:0 8px 32px rgba(0,0,0,0.6);color-scheme:dark;
+}
+html[data-theme=light]{
+  --bg:#eaf0f8;--text:#0f172a;--muted:#475569;--line:rgba(15,23,42,0.13);
+  --chip:rgba(15,23,42,0.05);--seg-active:rgba(15,23,42,0.09);
+  --cell-empty:rgba(15,23,42,0.08);--halo:rgba(234,240,248,0.78);
+  --panel-bg:rgba(255,255,255,0.78);--glass-bg:rgba(255,255,255,0.55);
+  --glass-border:rgba(255,255,255,0.8);--glass-rim:rgba(255,255,255,0.95);
+  --glass-shadow:0 10px 30px rgba(15,23,42,0.14);color-scheme:light;
+}
+html.done[data-theme=oled]{--num1:#f59e0b;--num2:#fb7185}
+html.done[data-theme=dark]{--num1:#fbbf24;--num2:#fb7185}
+html.done[data-theme=light]{--num1:#d97706;--num2:#e11d48}
