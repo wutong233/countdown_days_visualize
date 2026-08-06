@@ -1,0 +1,25 @@
+# Android
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/captures/
+android/.cxx/
+android/*.iml
+android/.idea/
+android/.kotlin/
+android/app/src/main/assets/web/
+
+# Gradle wrapper jar 由 CI 生成；如果想本地构建，运行 `gradle wrapper` 生成后取消下面注释
+# android/gradle/wrapper/gradle-wrapper.jar
+# android/gradlew
+# android/gradlew.bat
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.iml
